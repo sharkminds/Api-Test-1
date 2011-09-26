@@ -10748,3 +10748,23 @@ Rendering movies/index
   [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '2747175133b7f83e2c1aa8d74d9824727072be70d6c7ffc26b2fa078aebe6fdff203a6d17f18907e3fae1ba4c04a99ca436792496f8d6f8316422e5007d1e4ec') LIMIT 1[0m
   [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "updated_at" = '2011-09-26 19:42:02', "last_request_at" = '2011-09-26 19:42:02' WHERE "id" = 7[0m
 Completed in 62ms (View: 58, DB: 1) | 200 OK [http://0.0.0.0/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2011-09-27 03:07:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"movies"}
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/application
+Rendering movies/index
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '2747175133b7f83e2c1aa8d74d9824727072be70d6c7ffc26b2fa078aebe6fdff203a6d17f18907e3fae1ba4c04a99ca436792496f8d6f8316422e5007d1e4ec') LIMIT 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2011-09-26 21:37:28', "last_request_at" = '2011-09-26 21:37:28' WHERE "id" = 7[0m
+Completed in 68ms (View: 53, DB: 1) | 200 OK [http://0.0.0.0/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2011-09-27 03:07:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"movies"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/application
+Rendering movies/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '2747175133b7f83e2c1aa8d74d9824727072be70d6c7ffc26b2fa078aebe6fdff203a6d17f18907e3fae1ba4c04a99ca436792496f8d6f8316422e5007d1e4ec') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "updated_at" = '2011-09-26 21:37:37', "last_request_at" = '2011-09-26 21:37:37' WHERE "id" = 7[0m
+Completed in 23ms (View: 18, DB: 1) | 200 OK [http://0.0.0.0/movies]
