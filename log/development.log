@@ -10801,3 +10801,17 @@ Processing UserSessionsController#new (for 127.0.0.1 at 2011-09-27 03:47:29) [GE
 Rendering template within layouts/application
 Rendering user_sessions/new
 Completed in 35ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-09-27 04:01:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 49ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-09-27 04:02:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
